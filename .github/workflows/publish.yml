@@ -18,7 +18,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: ghcr.io/marcelahmt80/skills-publish-packages
-          tags: type=sha
+          tags: latest
       - name: Login to GHCR
         uses: docker/login-action@v3
         with:
